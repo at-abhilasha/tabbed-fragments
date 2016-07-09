@@ -42,7 +42,7 @@ public class TabbedFragment extends Fragment implements TabHost.OnTabChangeListe
     }
 
     public void onSaveInstanceState(Bundle outState) {
-        //outState.putString("tab", mTabHost.getCurrentTabTag()); // save the tab selected
+	//TODO: outState.putString("tab", mTabHost.getCurrentTabTag()); // save the tab selected
         super.onSaveInstanceState(outState);
     }
     
